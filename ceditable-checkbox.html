@@ -6,19 +6,20 @@
   </head>
   
   <body onload="firedup();">
+    <a id="lbl" onclick="toggleCEdit()">Toggle contentEditable (ON)</a>
     <div id="checkbox-ceditable" contentEditable="true">
         <ul>
             <li>
-                <span style="color:red;" contentEditable="false"><label><input type="checkbox" id="dewey" name="drone" value="dewey">Foo 1 (not editable)</label></span>
+                <span style="color:red;" contentEditable="false"><label id="preset-1"><input type="checkbox" id="dewey" name="drone" value="dewey">Foo 1 (not editable)</label></span>
             </li>
             <li>
-                <label><input type="checkbox" id="dewey" name="drone" value="dewey">Foo 2</label>
+                <label id="preset-2"><input type="checkbox" id="dewey" name="drone" value="dewey">Foo 2</label>
             </li>
             <li>
-                <label><input type="checkbox" id="dewey" name="drone" value="dewey">Foo 3</label>
+                <label id="preset-3"><input type="checkbox" id="dewey" name="drone" value="dewey">Foo 3</label>
             </li>
             <li>
-                <label><input type="checkbox" id="dewey" name="drone" value="dewey">Foo 4</label>
+                <label id="preset-4"><input type="checkbox" id="dewey" name="drone" value="dewey">Foo 4</label>
             </li>
         </ul>
     </div>
