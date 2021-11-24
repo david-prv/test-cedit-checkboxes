@@ -58,6 +58,7 @@ function firedup() {
             l.appendChild(x);
             l.innerHTML += "Test";
             l.addEventListener('mouseleave', handleMouseLeave);
+            item.addEventListener('click', blockClick);
         }
     });
 }
