@@ -3,7 +3,6 @@ function handleMouseLeave(event) {
     text = text.replace('<br>', '');
     let id = event.path[0].id;
     if(text.length < 1) {
-        console.log("Element empty: ", id);
         let el = document.getElementById(id);
         el.parentNode.removeChild(el);
     }
@@ -12,7 +11,6 @@ function handleMouseLeave(event) {
 function blockClick(event) {
     event.stopPropagation();
     event.preventDefault();
-    console.log("AWD");
 }
 
 function toggleCEdit() {
