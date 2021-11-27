@@ -5,4 +5,4 @@ Little test for one of my projects
 I wanted to create an editable checkbox menu, where one can easily add a new styled checkbox by just hitting enter.
 
 ## Live-Demo
-[Click](https://dev.nani-games.net/playground/ceditable/ceditable-checkbox.html)
+[Click](https://dev.nani-games.net/playground/ceditable/checkbox/index.html)
